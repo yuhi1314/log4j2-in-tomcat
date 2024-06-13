@@ -31,3 +31,5 @@ ADD context.xml $CATALINA_HOME/conf/context.xml
 # Add the spring web services "hello, world!" application to test the logging configuration.
 # Taken from https://spring.io/guides/gs/actuator-service/
 ADD target/gs-actuator-service-0.1.0.war.original $CATALINA_HOME/webapps/sample.war
+
+EXPOSE 8080
